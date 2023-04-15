@@ -16,12 +16,12 @@
   "homepage": "https://github.com/spacesick/nightlife-vscode-theme",
   "icon": "assets/icon.png",
   "galleryBanner": {
-    "color": "#0f1118",
+    "color": "#040408",
     "theme": "dark"
   },
   "displayName": "Nightlife Theme",
   "description": "Retro-futuristic color theme for Visual Studio Code, inspired by the rain-soaked neon-lit city nightlife.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.75.0"
   },
