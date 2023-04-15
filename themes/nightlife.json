@@ -1178,5 +1178,6 @@
 				"foreground": "#bda5e6"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true
 }
