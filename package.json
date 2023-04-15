@@ -1,0 +1,64 @@
+{
+  "name": "nightlife-vscode-theme",
+  "publisher": "Vincent Yovian",
+  "author": {
+    "name": "Vincent Yovian",
+    "url": "https://github.com/spacesick"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spacesick/nightlife-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/spacesick/nightlife-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/spacesick/nightlife-vscode-theme",
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#0f1118",
+    "theme": "dark"
+  },
+  "displayName": "Nightlife Theme",
+  "description": "Retro-futuristic color theme for Visual Studio Code, inspired by the rain-soaked neon-lit city nightlife.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "cyberpunk",
+    "dark",
+    "theme",
+    "color-theme",
+    "retro"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightlife",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightlife.json"
+      },
+      {
+        "label": "Nightlife (no italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightlife-no-italics.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "nightlife.enableCustomizations",
+        "title": "Nightlife: Enable Customizations (RELOADS VSCODE)"
+      },
+      {
+        "command": "nightlife.disableCustomizations",
+        "title": "Nightlife: Disable Customizations (RELOADS VSCODE)"
+      }
+    ]
+  }
+}

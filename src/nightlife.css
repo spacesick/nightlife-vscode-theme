@@ -1,0 +1,249 @@
+.monaco-workbench,
+body {
+  background: transparent !important;
+}
+
+.part.titlebar {
+  background: transparent !important;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0, 0.58, 0.56, 1);
+}
+
+.part.titlebar.inactive {
+  background: #07070b !important;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.1, 0, 0, 0.9);
+}
+
+.monaco-text-button {
+  padding: 5px;
+}
+
+.monaco-workbench
+  .notifications-list-container
+  .notification-list-item
+  .notification-list-item-buttons-container
+  .monaco-text-button {
+  padding: 5px 14px;
+}
+
+.settings-editor
+  > .settings-body
+  .settings-tree-container
+  .setting-item.setting-item-list
+  .monaco-text-button {
+  padding: 5px 14px;
+}
+
+.monaco-button.monaco-text-button {
+  border-radius: 52px;
+  transition-duration: 0.16s;
+  transition-timing-function: cubic-bezier(0, 0.64, 0.36, 1);
+}
+
+.monaco-button-dropdown > .monaco-button.monaco-text-button {
+  border-radius: 18px 0 0 18px;
+}
+
+.monaco-button-dropdown > .monaco-button.monaco-dropdown-button {
+  border-radius: 0 18px 18px 0;
+}
+
+.monaco-workbench
+  .notifications-list-container
+  .notification-list-item
+  .notification-list-item-buttons-container
+  .monaco-dropdown-button {
+  padding: 7px;
+}
+
+.monaco-button-dropdown {
+  border-radius: 52px;
+  transition-duration: 0.16s;
+  transition-timing-function: cubic-bezier(0, 0.64, 0.36, 1);
+}
+
+.notification-list-item-buttons-container > .monaco-button.monaco-text-button {
+  border-radius: 52px;
+}
+
+.window-controls-container > .window-icon {
+  transition-duration: 0.08s;
+  transition-timing-function: cubic-bezier(0, 0.64, 0.36, 1);
+  background: #090b0f;
+}
+
+.window-title,
+.layout-controls-container.show-layout-control,
+.action-item.icon.checked > .active-item-indicator:before,
+.action-item.icon.checked > .action-label:before {
+  background: transparent !important;
+  animation-name: aurora-title-g;
+  animation-duration: 146s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: alternate;
+}
+
+.monaco-list-row.focused.selected > .terminal-tabs-entry.is-active,
+.monaco-list-row.focused.selected > .monaco-action-bar.animated,
+.monaco-list-row.focused.selected > .monaco-icon-label.file-icon {
+  background: transparent !important;
+  animation-name: aurora;
+  animation-duration: 16s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: alternate;
+}
+
+.margin-view-overlays > div {
+  overflow: hidden;
+}
+
+.active-line-number {
+  animation-name: aurora;
+  animation-duration: 16s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  overflow: hidden;
+}
+
+@keyframes aurora-title-g {
+  from {
+    filter: drop-shadow(-1600px -120px 16px #c3c0ff)
+      drop-shadow(420px 60px 36px #b632ff) drop-shadow(544px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 18px #0d2cf9);
+  }
+  8% {
+    filter: drop-shadow(-1440px -100px 16px #c3c0ff)
+      drop-shadow(280px 60px 36px #b632ff) drop-shadow(512px 60px 14px #06ffd8)
+      drop-shadow(-364px -20px 18px #0d2cf9);
+  }
+  16% {
+    filter: drop-shadow(-1280px -90px 16px #c3c0ff)
+      drop-shadow(140px 60px 36px #b632ff) drop-shadow(476px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 18px #0d2cf9);
+  }
+  25% {
+    filter: drop-shadow(-1120px -80px 16px #c3c0ff)
+      drop-shadow(60px 60px 36px #b632ff) drop-shadow(416px 60px 14px #06ffd8)
+      drop-shadow(-200px -20px 18px #0d2cf9);
+  }
+  33% {
+    filter: drop-shadow(-960px -90px 16px #c3c0ff)
+      drop-shadow(140px 60px 36px #b632ff) drop-shadow(356px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 18px #0d2cf9);
+  }
+  42% {
+    filter: drop-shadow(-800px -100px 16px #c3c0ff)
+      drop-shadow(280px 60px 36px #b632ff) drop-shadow(320px 60px 14px #06ffd8)
+      drop-shadow(-236px -20px 18px #0d2cf9);
+  }
+  50% {
+    filter: drop-shadow(-640px -120px 16px #c3c0ff)
+      drop-shadow(420px 60px 36px #b632ff) drop-shadow(288px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 18px #0d2cf9);
+  }
+  58% {
+    filter: drop-shadow(-480px -100px 16px #c3c0ff)
+      drop-shadow(280px 60px 36px #b632ff) drop-shadow(256px 60px 14px #06ffd8)
+      drop-shadow(-236px -20px 18px #0d2cf9);
+  }
+  67% {
+    filter: drop-shadow(-320px -90px 16px #c3c0ff)
+      drop-shadow(140px 60px 36px #b632ff) drop-shadow(220px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 18px #0d2cf9);
+  }
+  75% {
+    filter: drop-shadow(-160px -80px 16px #c3c0ff)
+      drop-shadow(60px 60px 36px #b632ff) drop-shadow(160px 60px 14px #06ffd8)
+      drop-shadow(-200px -20px 18px #0d2cf9);
+  }
+  84% {
+    filter: drop-shadow(0px -90px 16px #c3c0ff)
+      drop-shadow(140px 60px 36px #b632ff) drop-shadow(100px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 18px #0d2cf9);
+  }
+  92% {
+    filter: drop-shadow(160px -100px 16px #c3c0ff)
+      drop-shadow(280px 60px 36px #b632ff) drop-shadow(64px 60px 14px #06ffd8)
+      drop-shadow(-364px -20px 18px #0d2cf9);
+  }
+  to {
+    filter: drop-shadow(320px -120px 16px #c3c0ff)
+      drop-shadow(420px 60px 36px #b632ff) drop-shadow(32px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 18px #0d2cf9);
+  }
+}
+
+@keyframes aurora {
+  from {
+    filter: drop-shadow(-640px -120px 16px #c3c0ff)
+      drop-shadow(420px 30px 36px #b632ff) drop-shadow(288px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 16px #0d2cf9);
+  }
+  16% {
+    filter: drop-shadow(-480px -80px 16px #c3c0ff)
+      drop-shadow(280px 40px 36px #b632ff) drop-shadow(256px 60px 14px #06ffd8)
+      drop-shadow(-236px -20px 16px #0d2cf9);
+  }
+  33% {
+    filter: drop-shadow(-320px -60px 16px #c3c0ff)
+      drop-shadow(140px 50px 36px #b632ff) drop-shadow(220px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 16px #0d2cf9);
+  }
+  50% {
+    filter: drop-shadow(-160px -40px 16px #c3c0ff)
+      drop-shadow(60px 60px 36px #b632ff) drop-shadow(160px 60px 14px #06ffd8)
+      drop-shadow(-200px -20px 36px #0d2cf9);
+  }
+  67% {
+    filter: drop-shadow(0px -60px 16px #c3c0ff)
+      drop-shadow(140px 70px 36px #b632ff) drop-shadow(100px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 16px #0d2cf9);
+  }
+  84% {
+    filter: drop-shadow(160px -80px 16px #c3c0ff)
+      drop-shadow(280px 80px 36px #b632ff) drop-shadow(64px 60px 14px #06ffd8)
+      drop-shadow(-364px -20px 16px #0d2cf9);
+  }
+  to {
+    filter: drop-shadow(320px -120px 16px #c3c0ff)
+      drop-shadow(420px 90px 36px #b632ff) drop-shadow(32px 60px 14px #06ffd8)
+      drop-shadow(-300px -20px 16px #0d2cf9);
+  }
+}
+
+.monaco-workbench .statusbar {
+  background: linear-gradient(
+    64deg,
+    rgba(243, 151, 89, 1) 0px,
+    rgba(243, 151, 89, 1) 40px,
+    rgba(255, 114, 48, 1) 40px,
+    rgba(255, 114, 48, 1) 64px,
+    rgba(206, 55, 55, 1) 64px,
+    rgba(206, 55, 55, 1) 80px,
+    rgba(154, 24, 71, 1) 80px,
+    rgba(154, 24, 71, 1) 89px,
+    rgba(80, 14, 148, 1) 89px,
+    rgba(80, 14, 148, 1) 93px,
+    rgba(26, 28, 37, 1) 93px,
+    rgba(26, 28, 37, 1) 100%
+  ) !important;
+
+  font-family: "Quicksand SemiBold", "Segoe WPC", "Segoe UI", sans-serif;
+  font-size: 11px !important;
+}
+
+.monaco-menu
+  > .monaco-action-bar.animated.vertical
+  > .actions-container
+  > .action-item.disabled
+  > .action-label.codicon.separator.disabled {
+  margin-left: 14px !important;
+  margin-right: 14px !important;
+}
