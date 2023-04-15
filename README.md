@@ -1,7 +1,9 @@
 # Nightlife
 
 ![Nightlife demo 1](assets/demo_show_1.png)
+
 ![Nightlife demo 2](assets/demo_show_2.png)
+
 ![Nightlife demo 3](assets/demo_show_3.png)
 
 *Nightlife* is a dark, subdued, medium-contrast color theme with a primarily dark blue palette for Visual Studio Code. It is built from the ground up to echo the hues of rain-soaked neon-lit cityscapes. Nightlife also introduces custom CSS to Visual Studio Code to give the whole workspace a more dynamic and retro-futuristic look.
@@ -17,8 +19,11 @@
 ## Enabling and disabling the customizations
 
 Nightlife with customizations enabled
+
 ![Nightlife with customizations](assets/demo_effects.gif)
+
 Nightlife with customizations disabled
+
 ![Nightlife without customizations](assets/demo_no_effects.gif)
 
 ### Disclaimer
