@@ -21,7 +21,7 @@
   },
   "displayName": "Nightlife Theme",
   "description": "Retro-futuristic color theme for Visual Studio Code, inspired by the rain-soaked neon-lit city nightlife.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.75.0"
   },
