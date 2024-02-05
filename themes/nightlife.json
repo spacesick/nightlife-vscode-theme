@@ -703,6 +703,13 @@
       }
     },
     {
+      "scope": "variable.other.local",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#bad6ff"
+      }
+    },
+    {
       "name": "HTML Tags",
       "scope": ["entity.name.tag", "entity.name.tag.css"],
       "settings": {
