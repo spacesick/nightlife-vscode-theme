@@ -282,7 +282,10 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#de6067",
 
     "keybindingTable.headerBackground": "#090b0f",
-    "keybindingTable.rowsBackground": "#090b0f80"
+    "keybindingTable.rowsBackground": "#090b0f80",
+
+    "gitDecoration.modifiedResourceForeground": "#ffb98c",
+    "gitDecoration.untrackedResourceForeground": "#8fc697"
   },
   "tokenColors": [
     {
@@ -735,7 +738,7 @@
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "fontStyle": "",
-        "foreground": "#ffa184"
+        "foreground": "#D2C4FF"
       }
     },
     {

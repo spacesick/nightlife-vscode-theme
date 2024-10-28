@@ -8,7 +8,7 @@ const fs = require('fs');
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-    let entry = require.main.filename;
+    let entry = path.join(path.dirname(vscode.env.appRoot), 'app', 'out');
     if (entry === undefined) {
         vscode.window
             .showErrorMessage(
@@ -16,9 +16,9 @@ function activate(context) {
             );
         return;
     }
-    const basePath = path.join(path.dirname(entry), 'vs', 'code');
-    const htmlPath = path.join(basePath, 'electron-sandbox', 'workbench', 'workbench.html');
-    const backupHtmlPath = path.join(basePath, 'electron-sandbox', 'workbench', 'workbench.html.nightlifebak');
+    const basePath = path.join(entry, 'vs', 'code');
+    const htmlPath = path.join(basePath, 'electron-sandbox', 'workbench', 'workbench.esm.html');
+    const backupHtmlPath = path.join(basePath, 'electron-sandbox', 'workbench', 'workbench.esm.html.nightlifebak');
     const cssPath = path.join(__dirname, 'nightlife.css');
 
     /**
