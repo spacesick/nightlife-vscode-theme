@@ -135,9 +135,10 @@
     "list.focusHighlightForeground": "#ffe376e0",
     "list.focusBackground": "#09327140",
 
-    "statusBar.background": "#1a1c25",
-    "statusBar.foreground": "#d0d0e3",
-    "statusBarItem.hoverBackground": "#c3c0ff40",
+    "statusBar.background": "#0e0e13",
+    "statusBar.foreground": "#D5D6DB90",
+    "statusBarItem.hoverBackground": "#c3c0ff20",
+    "statusBarItem.hoverForeground": "#D5D6DB",
     "statusBar.border": "#23253000",
     "statusBar.noFolderBackground": "#a524ff",
     "statusBar.noFolderForeground": "#ffffff",
@@ -152,9 +153,9 @@
     "titleBar.inactiveForeground": "#D5D6DBA0",
 
     "menu.background": "#161926",
-    "menu.border": "#fa398600",
-    "menu.foreground": "#EFF4F6",
-    "menu.separatorBackground": "#B2B6C4",
+    "menu.border": "#090b0f",
+    "menu.foreground": "#EFF4F6e8",
+    "menu.separatorBackground": "#090b0f",
 
     "menu.selectionBackground": "#20327180",
     "menu.selectionForeground": "#f2f8f7",
