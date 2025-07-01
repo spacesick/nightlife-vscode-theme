@@ -150,7 +150,7 @@
     "titleBar.activeForeground": "#D5D6DB",
     "titleBar.border": "#090b0f",
     "titleBar.inactiveBackground": "#090b0f",
-    "titleBar.inactiveForeground": "#D5D6DBA0",
+    "titleBar.inactiveForeground": "#D5D6DB90",
 
     "menu.background": "#161926",
     "menu.border": "#090b0f",
