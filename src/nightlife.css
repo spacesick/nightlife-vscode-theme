@@ -1,6 +1,6 @@
 .monaco-workbench,
 body {
-  
+
 }
 
 .part.titlebar {
@@ -230,8 +230,8 @@ body {
     rgba(154, 24, 71, 1) 89px,
     rgba(80, 14, 148, 1) 89px,
     rgba(80, 14, 148, 1) 93px,
-    rgba(26, 28, 37, 1) 93px,
-    rgba(26, 28, 37, 1) 100%
+    var(--vscode-statusBar-background) 93px,
+    var(--vscode-statusBar-background) 100%
   ) !important;
 
   font-family: "Quicksand SemiBold", "Segoe WPC", "Segoe UI", sans-serif;

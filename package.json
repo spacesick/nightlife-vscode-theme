@@ -48,6 +48,16 @@
         "label": "Nightlife (no italics)",
         "uiTheme": "vs-dark",
         "path": "./themes/nightlife-no-italics-color-theme.json"
+      },
+      {
+        "label": "Nightlife Slums",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightlife-slums-color-theme.json"
+      },
+      {
+        "label": "Nightlife Slums (no italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightlife-slums-no-italics-color-theme.json"
       }
     ],
     "commands": [
