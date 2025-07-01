@@ -17,8 +17,8 @@ function activate(context) {
         return;
     }
     const basePath = path.join(entry, 'vs', 'code');
-    const htmlPath = path.join(basePath, 'electron-sandbox', 'workbench', 'workbench.esm.html');
-    const backupHtmlPath = path.join(basePath, 'electron-sandbox', 'workbench', 'workbench.esm.html.nightlifebak');
+    const htmlPath = path.join(basePath, 'electron-sandbox', 'workbench', 'workbench.html');
+    const backupHtmlPath = path.join(basePath, 'electron-sandbox', 'workbench', 'workbench.html.nightlifebak');
     const cssPath = path.join(__dirname, 'nightlife.css');
 
     /**
