@@ -42,12 +42,12 @@
       {
         "label": "Nightlife",
         "uiTheme": "vs-dark",
-        "path": "./themes/nightlife.json"
+        "path": "./themes/nightlife-color-theme.json"
       },
       {
         "label": "Nightlife (no italics)",
         "uiTheme": "vs-dark",
-        "path": "./themes/nightlife-no-italics.json"
+        "path": "./themes/nightlife-no-italics-color-theme.json"
       }
     ],
     "commands": [
